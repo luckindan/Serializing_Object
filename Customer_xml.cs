@@ -85,7 +85,8 @@ namespace ConsoleApp3
 
         }
 
-
+        //this function will read a file from the filepath
+        //returns the Customer Obejct
         static public Customer_xml Read(string filepath)
         {
             //throw if the inputArray is null
