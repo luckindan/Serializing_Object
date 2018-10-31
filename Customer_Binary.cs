@@ -136,6 +136,8 @@ namespace Serialize_Object
 
             return m_operation; //return the operation statues
         }
+        //THis function will writes the current object into the file at the given filepath
+        //returns the operation status
         public bool Write(string filepath)
         {
             bool m_operation = false; //operation statues
@@ -174,6 +176,8 @@ namespace Serialize_Object
 
             return m_operation; //return the operation statues
         }
+        //this function will read the bytearray from the filepath
+        //retuns the Customer_binary object
         public Customer_binary Read(string filepath)
         {
             //throw if the inputArray is null
