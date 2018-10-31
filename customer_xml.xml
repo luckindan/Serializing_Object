@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customer_xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_FirstName>John</m_FirstName>
+  <m_LastName>Doe</m_LastName>
+  <m_BirthdayUT>2018-10-30T22:03:07.8103235-04:00</m_BirthdayUT>
+  <m_FullAddress>Somewhere on the Earth</m_FullAddress>
+  <m_IsPainInTheAss>true</m_IsPainInTheAss>
+  <m_IsVIP>false</m_IsVIP>
+  <m_IsHot>false</m_IsHot>
+  <m_AverageBodyTemperature>0</m_AverageBodyTemperature>
+</Customer_xml>
