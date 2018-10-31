@@ -81,7 +81,8 @@ namespace Serialize_Object
 
         }
 
-
+        //this fucntion will read the bytes array from the filepath
+        //returns the Cusotmer_xml object
         static public Customer_xml Read(string filepath)
         {
             //throw if the inputArray is null
