@@ -123,7 +123,8 @@ namespace Serialize_Object
 
             return m_operation; //return the operation statues
         }
-
+        //this function will convert the current object into bytearray and writes into the given file
+        //returns the operation status
         public bool Write(string filepath)
         {
             bool m_operation = false; //operation statues
@@ -152,7 +153,8 @@ namespace Serialize_Object
 
             return m_operation; //return the operation statues
         }
-
+        //this function will read the bytearray from the filepath
+        //returns the Customer_net object
         static public Customer_net Read(string filepath)
         {
 
